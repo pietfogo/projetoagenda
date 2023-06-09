@@ -1,0 +1,76 @@
+html {
+  background: linear-gradient(to right, rgba(15, 143, 255, 0.8), rgba(1, 2, 78, 0.8));
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+.App {
+  width: 40%;
+  margin: 2em auto;
+  background-color: #394049;
+  border-radius: 5px;
+  color: #fff;
+  padding-bottom: 2px;
+}
+#todo-header {
+  padding: 0.5em;
+  border-bottom: 1px solid #2c3035;
+  text-align: center;
+}
+#todo-header h1 {
+  margin: 0;
+}
+#form-todo {
+  padding: 1em;
+  margin: 0 2em;
+  border-bottom: 1px solid #2c3035;
+}
+#form-todo h2, .list-todo h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+#form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+#form-control label {
+  font-weight: bold;
+  font-size: .7em;
+  margin-bottom: .4em;
+}
+#form-control input {
+  border: 1px solid #222;
+  border-radius: 2px;
+  background-color: #2C3035;
+  padding: .5em;
+  color: #dfdfdf;
+}
+input[type="submit"]{
+  background-color: #333;
+  color: #eee;
+  width: 100%;
+  display: block;
+  border: #222 solid 1px;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+}
+#credenciais {
+  margin-left: 15px;
+}
+#todo {
+  border-bottom: #dfdfdf 1.5px solid;
+}
+#botao-finalizar {
+  margin-bottom: 8px;
+}
+#paragnht {
+  margin-left: 12px;
+  font-size: 18px;
+}
+h2 {
+  margin-left: 10px;
+}
